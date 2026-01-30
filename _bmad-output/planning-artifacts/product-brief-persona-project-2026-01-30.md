@@ -1,5 +1,5 @@
 ---
-stepsCompleted: [1, 2]
+stepsCompleted: [1, 2, 3]
 inputDocuments: []
 date: 2026-01-30
 author: ASUS
@@ -72,5 +72,38 @@ Our company currently uses three disconnected systems - Notion (tasks & bugs), A
 **Launch Timing Advantage:** With a new product just launched and growing complexity, building this infrastructure now establishes the foundation for scaling both products efficiently with a small team.
 
 **Technical Team Ownership:** Having a dev team to build and maintain the solution eliminates dependence on external vendors, allows rapid iteration based on business needs, and ensures long-term sustainability.
+
+---
+
+## Target Users
+
+### Primary Users
+
+**Marketing Team Member - "Maya"**
+- **Context:** Part of a small marketing team (2-3 people) managing client relationships and preparing QBRs for two products. Non-technical background.
+- **Current Pain:** Depends on developers to export data from multiple systems. When she needs client stats before a call, she either waits for a developer to be available or works with outdated spreadsheets.
+- **Goals:** Pull client-specific insights instantly before calls and QBRs. Identify success stories for case studies. Track client engagement trends.
+- **Success Moment:** "I can pull any client's stats in under 30 seconds before a call - no more asking developers or scrambling with old spreadsheets."
+
+**Product Team Member - "Paolo"**
+- **Context:** Part of a small product team (2-3 people) managing two products. Non-technical, focused on product decisions and roadmap.
+- **Current Pain:** Has no visibility into which features are actually being used, which clients are power users, or what types of simulations people are creating. Makes product decisions based on gut feel rather than data.
+- **Goals:** See feature adoption at a glance. Identify power users vs. clients at risk of churning. Understand what simulations people are building to guide product direction.
+- **Success Moment:** "I can see exactly which features are getting traction and spot at-risk clients before they churn - data I never had access to before."
+
+### Secondary Users
+
+**Developers (Indirect)**
+- Build and maintain the dashboard and internal CRUD API endpoints
+- No longer responsible for manual data exports once dashboard is live
+- May access for troubleshooting or verifying data accuracy
+
+### User Journey
+
+- **Discovery:** Internal announcement to team - "here's your new dashboard"
+- **Onboarding:** One-click Google SSO, immediate access to company data
+- **Core Usage:** Monday morning check-ins as part of weekly rhythm; quick lookups before client calls or meetings
+- **Success Moment:** First time pulling client stats in seconds instead of requesting an export
+- **Long-term:** Becomes the single source of truth for OKR reviews and QBR preparation - no more spreadsheets
 
 ---
